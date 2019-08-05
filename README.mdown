@@ -32,6 +32,11 @@ We are able to accept contributions to the Facebook SDK for Unity. To contribute
 
 BUILDING THE SDK
 -------------
+
+* Replace `UNITY_PATH` in **common.sh** with the appropriate path.
+* Find and replace **\Applications\Unity\Unity.app** references in **.sln** files with the appropriate path so that Unity assemblies can be found by MSBuild.
+* Find and replace any **UnityExtensions\Unity\GUISystem\UnityEngine.UI.dll** references in **.sln** files with **../UnitySDK/Library/ScriptAssemblies/UnityEngine.UI.dll** to support the new UI path with the 2019.2 UI package change.
+
 1. Setup the plugin binaries.
 ```
 ./scripts/setup.sh

@@ -34,10 +34,16 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="UnityEditor">
-      <HintPath>\Applications\Unity\Unity.app\Contents\Managed\UnityEditor.dll</HintPath>
+      <HintPath>\Applications\Unity\Hub\Editor\2019.2.0f1\Unity.app\Contents\Managed\UnityEditor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine">
-      <HintPath>\Applications\Unity\Unity.app\Contents\Managed\UnityEngine.dll</HintPath>
+      <HintPath>/Applications/Unity/Hub/Editor/2019.2.0f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2019.2.0f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2019.2.0f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq" />
