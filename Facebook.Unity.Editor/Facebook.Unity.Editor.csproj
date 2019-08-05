@@ -63,7 +63,6 @@
     <Compile Include="iOS\PListDict.cs" />
     <Compile Include="iOS\PListParser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="android\AndroidSupportLibraryResolver.cs" />
     <Compile Include="iOS\PBXCapabilityType.cs" />
     <Compile Include="iOS\PBXPath.cs" />
     <Compile Include="iOS\PBXProject.cs" />
