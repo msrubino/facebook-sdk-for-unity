@@ -36,8 +36,8 @@ BUILDING THE SDK
 1. Assign the `FB_SDK_UNITY_PATH` environment variable to the Unity path you wish to use.
 	* This:
 		* Configures the Unity instance to use for all shell scripts.
-		* Allows **.sln** files to properly reference UnityEngine modules across machines.
-2. Find and replace any **UnityExtensions\Unity\GUISystem\UnityEngine.UI.dll** references in **.sln** files with **../UnitySDK/Library/ScriptAssemblies/UnityEngine.UI.dll** to support the new UI path with the 2019.2 UI package change.
+		* Allows **.csproj** files to properly reference UnityEngine modules across machines.
+2. Find and replace any **UnityExtensions\Unity\GUISystem\UnityEngine.UI.dll** references in **.csproj** files with **../UnitySDK/Library/ScriptAssemblies/UnityEngine.UI.dll** to support the new UI path with the 2019.2 UI package change.
 3. Setup the plugin binaries.
 ```
 ./scripts/setup.sh
