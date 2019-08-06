@@ -37,7 +37,7 @@ BUILDING THE SDK
 	* This:
 		* Configures the Unity instance to use for all shell scripts.
 		* Allows **.csproj** files to properly reference UnityEngine modules across machines.
-2. Find and replace any **UnityExtensions\Unity\GUISystem\UnityEngine.UI.dll** references in **.csproj** files with **../UnitySDK/Library/ScriptAssemblies/UnityEngine.UI.dll** to support the new UI path with the 2019.2 UI package change.
+2. Find and replace any **UnityExtensions\Unity\GUISystem\UnityEngine.UI.dll** references in **.csproj** files with **..\UnitySDK\Library\ScriptAssemblies\UnityEngine.UI.dll** to support the new UI path with the 2019.2 UI package change.
 3. Setup the plugin binaries.
 ```
 ./scripts/setup.sh

@@ -36,38 +36,38 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="UnityEngine">
-      <HintPath>$(FB_SDK_UNITY_PATH)/../../Managed/UnityEngine/UnityEngine.dll</HintPath>
+      <HintPath>$(FB_SDK_UNITY_PATH)\..\..\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
-      <HintPath>$(FB_SDK_UNITY_PATH)/../../Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>$(FB_SDK_UNITY_PATH)\..\..\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AndroidJNIModule">
-      <HintPath>$(FB_SDK_UNITY_PATH)/../../Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll</HintPath>
+      <HintPath>$(FB_SDK_UNITY_PATH)\..\..\Managed\UnityEngine\UnityEngine.AndroidJNIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.IMGUIModule">
-      <HintPath>$(FB_SDK_UNITY_PATH)/../../Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+      <HintPath>$(FB_SDK_UNITY_PATH)\..\..\Managed\UnityEngine\UnityEngine.IMGUIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UIModule">
-      <HintPath>$(FB_SDK_UNITY_PATH)/../../Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+      <HintPath>$(FB_SDK_UNITY_PATH)\..\..\Managed\UnityEngine\UnityEngine.UIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.InputModule">
-      <HintPath>$(FB_SDK_UNITY_PATH)/../../Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+      <HintPath>$(FB_SDK_UNITY_PATH)\..\..\Managed\UnityEngine\UnityEngine.InputModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.InputLegacyModule">
-      <HintPath>$(FB_SDK_UNITY_PATH)/../../Managed/UnityEngine/UnityEngine.InputLegacyModule.dll</HintPath>
+      <HintPath>$(FB_SDK_UNITY_PATH)\..\..\Managed\UnityEngine\UnityEngine.InputLegacyModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ImageConversionModule">
-      <HintPath>$(FB_SDK_UNITY_PATH)/../../Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+      <HintPath>$(FB_SDK_UNITY_PATH)\..\..\Managed\UnityEngine\UnityEngine.ImageConversionModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestWWWModule">
-      <HintPath>$(FB_SDK_UNITY_PATH)/../../Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+      <HintPath>$(FB_SDK_UNITY_PATH)\..\..\Managed\UnityEngine\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestModule">
-      <HintPath>$(FB_SDK_UNITY_PATH)/../../Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+      <HintPath>$(FB_SDK_UNITY_PATH)\..\..\Managed\UnityEngine\UnityEngine.UnityWebRequestModule.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml" />
     <Reference Include="UnityEngine.UI">
-      <HintPath>../UnitySDK/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>..\UnitySDK\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
