@@ -101,7 +101,7 @@ namespace Facebook.Unity.Editor
 
         public static bool HasAndroidSDK()
         {
-            return EditorPrefs.HasKey("AndroidSdkRoot") && System.IO.Directory.Exists(EditorPrefs.GetString("AndroidSdkRoot"));
+            return EditorPrefs.GetBool("SdkUseEmbedded") || (EditorPrefs.HasKey("AndroidSdkRoot") && System.IO.Directory.Exists(EditorPrefs.GetString("AndroidSdkRoot")));
         }
 
         public static bool HasAndroidKeystoreFile()
