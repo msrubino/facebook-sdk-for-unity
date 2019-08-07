@@ -34,7 +34,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="UnityEditor">
-      <HintPath>\Applications\Unity\Hub\Editor\2019.2.0f1\Unity.app\Contents\Managed\UnityEditor.dll</HintPath>
+      <HintPath>$(FB_SDK_UNITY_PATH)\..\..\Managed\UnityEditor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine">
       <HintPath>$(FB_SDK_UNITY_PATH)\..\..\Managed\UnityEngine\UnityEngine.dll</HintPath>
