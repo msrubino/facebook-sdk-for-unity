@@ -61,23 +61,23 @@ namespace Facebook.Unity.Editor
 
         public static void AddVersionDefine(string path)
         {
-            int versionNumber = GetUnityVersionNumber();
+            // int versionNumber = GetUnityVersionNumber();
 
-            string fullPath = Path.Combine(path, Path.Combine("Libraries", "RegisterMonoModules.h"));
-            string data = Load(fullPath);
+            // string fullPath = Path.Combine(path, Path.Combine("Libraries", "RegisterMonoModules.h"));
+            // string data = Load(fullPath);
 
-            if (versionNumber >= 430)
-            {
-                data += "\n#define HAS_UNITY_VERSION_DEF 1\n";
-            }
-            else
-            {
-                data += "\n#define UNITY_VERSION ";
-                data += versionNumber;
-                data += "\n";
-            }
+            // if (versionNumber >= 430)
+            // {
+            //     data += "\n#define HAS_UNITY_VERSION_DEF 1\n";
+            // }
+            // else
+            // {
+            //     data += "\n#define UNITY_VERSION ";
+            //     data += versionNumber;
+            //     data += "\n";
+            // }
 
-            Save(fullPath, data);
+            // Save(fullPath, data);
         }
 
         public static void FixColdStart(string path)
